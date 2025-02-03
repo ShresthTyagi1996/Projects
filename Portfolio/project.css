@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", serif;
+    }
+    /* This element will == the height of the image.*/
+    .container {
+        position: relative;
+    }
+
+    /* This element is the background image.*/
+    .background-image {
+        width: 100%;
+        height: auto;
+        position: fixed;
+    }
+
+    /* This element contains the content which will be placed on top of the background image.*/
+    .content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        text-align: center;
+        padding: 500px;
+        color: #F5F5F5;
+        font-size: 1.8rem;
+    }
